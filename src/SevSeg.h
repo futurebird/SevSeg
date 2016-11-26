@@ -1,5 +1,6 @@
 //Written by Dean Reading, 2012.  deanreading@hotmail.com
 //See .cpp file for info
+//Futurebird is editing this fork to work with eight segments.
 
 #ifndef SevSeg_h
 #define SevSeg_h
@@ -30,21 +31,22 @@
 
 //This is the combined array that contains all the segment configurations for many different characters and symbols
 const uint8_t characterArray[] PROGMEM = {
-//  ABCDEFG  Segments      7-segment map:
-  0b1111110, // 0   "0"          AAA
-  0b0110000, // 1   "1"         F   B
-  0b1101101, // 2   "2"         F   B
-  0b1111001, // 3   "3"          GGG
-  0b0110011, // 4   "4"         E   C
-  0b1011011, // 5   "5"         E   C
-  0b1011111, // 6   "6"          DDD
-  0b1110000, // 7   "7"
-  0b1111111, // 8   "8"
-  0b1111011, // 9   "9"
-  0b1110111, // 10  "A"
-  0b0011111, // 11  "b"
-  0b1001110, // 12  "C"
-  0b0111101, // 13  "d"
+//  ABCDEFGH  Segments      8-segment map:
+  0b11000011, // 0   "0"       A BBBBB H
+  0b10000000, // 1   "1"       A C   D H
+  0b01011010, // 2   "2"       A C   D H
+  0b11101010, // 3   "3"       A  C D  H
+  0b00110101, // 4   "4"       A  E F  H
+  0b01011010, // 5   "5"       A E   F H
+  0b11101110, // 6   "6"       A E   F H
+  0b01011000, // 7   "7"       A GGGGG H
+  0b01111110, // 8   "8"
+  0b01100101, // 9   "9"
+  0b11111101, // 10  "A"
+  0b10001110, // 11  "b"
+  0b11000010, // 12  "C"
+  0b00001111, // 13  "d"
+
   0b1001111, // 14  "E"
   0b1000111, // 15  "F"
   0b0000000, // 16  NO DISPLAY
