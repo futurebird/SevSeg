@@ -47,57 +47,58 @@ const uint8_t characterArray[] PROGMEM = {
   0b11000010, // 12  "C"
   0b00001111, // 13  "d"
 
-  0b1001111, // 14  "E"
-  0b1000111, // 15  "F"
-  0b0000000, // 16  NO DISPLAY
-  0b0000000, // 17  NO DISPLAY
-  0b0000000, // 18  NO DISPLAY
-  0b0000000, // 19  NO DISPLAY
-  0b0000000, // 20  NO DISPLAY
-  0b0000000, // 21  NO DISPLAY
-  0b0000000, // 22  NO DISPLAY
-  0b0000000, // 23  NO DISPLAY
-  0b0000000, // 24  NO DISPLAY
-  0b0000000, // 25  NO DISPLAY
-  0b0000000, // 26  NO DISPLAY
-  0b0000000, // 27  NO DISPLAY
-  0b0000000, // 28  NO DISPLAY
-  0b0000000, // 29  NO DISPLAY
-  0b0000000, // 30  NO DISPLAY
-  0b0000000, // 31  NO DISPLAY
-  0b0000000, // 32  ' '
-  0b0000000, // 33  '!'  NO DISPLAY
-  0b0100010, // 34  '"'
-  0b0000000, // 35  '#'  NO DISPLAY
-  0b0000000, // 36  '$'  NO DISPLAY
-  0b0000000, // 37  '%'  NO DISPLAY
-  0b0000000, // 38  '&'  NO DISPLAY
-  0b0100000, // 39  '''
-  0b1001110, // 40  '('
-  0b1111000, // 41  ')'
-  0b0000000, // 42  '*'  NO DISPLAY
-  0b0000000, // 43  '+'  NO DISPLAY
-  0b0000100, // 44  ','
-  0b0000001, // 45  '-'
-  0b0000000, // 46  '.'  NO DISPLAY
-  0b0000000, // 47  '/'  NO DISPLAY
-  0b1111110, // 48  '0'
-  0b0110000, // 49  '1'
-  0b1101101, // 50  '2'
-  0b1111001, // 51  '3'
-  0b0110011, // 52  '4'
-  0b1011011, // 53  '5'
-  0b1011111, // 54  '6'
-  0b1110000, // 55  '7'
-  0b1111111, // 56  '8'
-  0b1111011, // 57  '9'
-  0b0000000, // 58  ':'  NO DISPLAY
-  0b0000000, // 59  ';'  NO DISPLAY
-  0b0000000, // 60  '<'  NO DISPLAY
-  0b0000000, // 61  '='  NO DISPLAY
-  0b0000000, // 62  '>'  NO DISPLAY
-  0b0000000, // 63  '?'  NO DISPLAY
-  0b0000000, // 64  '@'  NO DISPLAY
+  0b11101010, // 14  "E"
+  0b11101000, // 15  "F"
+  0b00000000, // 16  NO DISPLAY
+  0b00000000, // 17  NO DISPLAY
+  0b00000000, // 18  NO DISPLAY
+  0b00000000, // 19  NO DISPLAY
+  0b00000000, // 20  NO DISPLAY
+  0b00000000, // 21  NO DISPLAY
+  0b00000000, // 22  NO DISPLAY
+  0b00000000, // 23  NO DISPLAY
+  0b00000000, // 24  NO DISPLAY
+  0b00000000, // 25  NO DISPLAY
+  0b00000000, // 26  NO DISPLAY
+  0b00000000, // 27  NO DISPLAY
+  0b00000000, // 28  NO DISPLAY
+  0b00000000, // 29  NO DISPLAY
+  0b00000000, // 30  NO DISPLAY
+  0b00000000, // 31  NO DISPLAY
+  0b00000000, // 32  ' '
+  0b00000000, // 33  '!'  NO DISPLAY
+  0b00010000, // 34  '"'
+  0b00000000, // 35  '#'  NO DISPLAY
+  0b00000000, // 36  '$'  NO DISPLAY
+  0b00000000, // 37  '%'  NO DISPLAY
+  0b00000000, // 38  '&'  NO DISPLAY
+  0b00010000, // 39  '''
+  0b11000010, // 40  '('
+  0b01000011, // 41  ')'
+  0b00000000, // 42  '*'  NO DISPLAY
+  0b00000000, // 43  '+'  NO DISPLAY
+  0b00000100, // 44  ','
+  0b00000000, // 45  '-' NO DISPLAY
+  0b00000000, // 46  '.'  NO DISPLAY
+  0b00000000, // 47  '/'  NO DISPLAY
+  0b11000011, // 48   "0"       A BBBBB H
+  0b10000000, // 49   "1"       A C   D H
+  0b01011010, // 50   "2"       A C   D H
+  0b11101010, // 51   "3"       A  C D  H
+  0b00110101, // 52   "4"       A  E F  H
+  0b01011010, // 53   "5"       A E   F H
+  0b11101110, // 54   "6"       A E   F H
+  0b01011000, // 55   "7"       A GGGGG H
+  0b01111110, // 56   "8"
+  0b01100101, // 57   "9"
+
+  0b00000000, // 58  ':'  NO DISPLAY
+  0b00000000, // 59  ';'  NO DISPLAY
+  0b00000000, // 60  '<'  NO DISPLAY
+  0b00000000, // 61  '='  NO DISPLAY
+  0b00000000, // 62  '>'  NO DISPLAY
+  0b00000000, // 63  '?'  NO DISPLAY
+  0b00000000, // 64  '@'  NO DISPLAY
   0b1110111, // 65  'A'
   0b0011111, // 66  'b'
   0b1001110, // 67  'C'
@@ -203,4 +204,3 @@ private:
 };
 
 #endif
-
